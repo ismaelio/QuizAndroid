@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+     android:background="#000000">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Qual o fundador do laboratório?"
+        android:textColor="#ffffff"
+        android:textSize="18sp" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:id="@+id/op1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Cave Johnson"
+            android:textColor="#ffffff"
+            android:textSize="24dp" />
+
+        <RadioButton
+            android:id="@+id/op2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gordon Freeman"
+            android:textColor="#ffffff"
+            android:textSize="24dp" />
+
+        <RadioButton
+            android:id="@+id/op3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wallace Breen" 
+            android:textColor="#ffffff" 
+             android:textSize="24dp"/>
+
+        <RadioButton
+            android:id="@+id/op4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Eli Vance"
+            android:textColor="#ffffff" 
+             android:textSize="24dp" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btper7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Próximo"
+        android:textColor="#ffffff"
+        android:textSize="24dp" />
+
+    <Button
+        android:id="@+id/btvoltar1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Voltar ao menu" 
+        android:textColor="#ffffff" 
+        android:textSize="24dp" 
+        />
+
+</LinearLayout>
